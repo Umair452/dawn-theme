@@ -1,6 +1,7 @@
 {% comment %} {{  product.tags }} {% endcomment %}
 
-{% for value in product.options_with_values ["Flavor"].value %}
+{% comment %} {% for value in product.options_with_values ["Flavor"].value %}
     {{- value -}}
     <br />
-{% endfor %}
+{% endfor %} {% endcomment %}
+
