@@ -1,1 +1,6 @@
-{{  product.tags }}
+{% comment %} {{  product.tags }} {% endcomment %}
+
+{% for tag in product.tags %}
+    {{ tag }}
+    <br />
+{% endfor %}
